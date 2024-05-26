@@ -1,0 +1,71 @@
+body{
+    background-color: #99c59a !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top  : 10vh;
+    color: #BBE1FA;
+}
+
+
+.card {
+    display: flex;
+    background-color: #98cea9!important;
+    color: #173c54;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+.card-header {
+    background-color: #245f3b  !important;
+    text-align: center;
+    font-size : medium;
+    font-weight: bold;
+    color:#ffffff!important;
+}
+
+.card-img-top {
+    display: flex;
+    align-items : center;
+    padding: 5%;
+    width:200px;
+    height: 200px;
+    border-radius:20px;
+}
+
+.card-text {
+    text-align  : center;
+    font-weight : 500;
+}
+
+.text-center {
+    margin-bottom: 2vh;
+}
+
+.weather {
+    color: #2B2A4C;
+}
+
+/* Loader CSS */
+#loaderContainter {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.loader {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: 20vh;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    .card-img-top {
+  height  : 20vh;
+    }
+}
